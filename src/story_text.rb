@@ -21,7 +21,7 @@ end
 
 #DREAM SEQUENCE - Body of text
 def title
-    puts image("./docs/img/logo.jpg")
+    puts image("./img/logo.jpg")
 end
 
 def dream_sequence(clock)
@@ -43,16 +43,16 @@ def dream_sequence(clock)
         input = gets.chomp
         system("clear")
         if input == "a"
-            puts image("./docs/img/gretch.jpg")
+            puts image("./img/gretch.jpg")
             gretchen_text
         elsif input == "b"
-            puts image("./docs/img/matt.jpg")
+            puts image("./img/matt.jpg")
             matt_text
         elsif input == "c"
-            puts image("./docs/img/harrison.jpg")
+            puts image("./img/harrison.jpg")
             harrison_text(clock)
         elsif input == "d"
-            puts image("./docs/img/ruegen.jpg")
+            puts image("./img/ruegen.jpg")
             ruegen_text(clock)
         end 
 end
@@ -211,7 +211,7 @@ def shower_text(clock)
     system("clear")
 
 if input == "a"
-    puts image("./docs/img/dog.jpg")
+    puts image("./img/dog.jpg")
 
     puts """
     You accidentally left your bathroom door ajar in your attempts to save times. 
@@ -266,7 +266,7 @@ if input == "a"
     return false
 
 elsif input == "b"
-    puts image("./docs/img/fruitloops.jpg")
+    puts image("./img/fruitloops.jpg")
     puts """
     Fruit loops. It's healthy. Shut up! 
     """
@@ -274,7 +274,7 @@ elsif input == "b"
     return true
 
 elsif input == "c"
-    puts image("./docs/img/avocado.jpg")
+    puts image("./img/avocado.jpg")
     puts """
     Gotta start the day right, and toast is portable!
     """
@@ -285,7 +285,7 @@ end
 
 #INTERACTION WITH THE DOG - DOG BLOCK OF TEXT AND CHOICES.
 def dog_text(clock)
-    puts image("./docs/img/dog_door.jpg")
+    puts image("./img/dog_door.jpg")
     puts """
     Your dog finds you just as you're about to head for the door. It whines. You haven't fed it. 
     Do you:
@@ -320,7 +320,7 @@ def shoes_text(dog_fed, clock)
         You say goodbye to your good boy as you go to put your shoes on.
         """
 if dog_fed
-    puts image("./docs/img/both_shoes.jpg")
+    puts image("./img/both_shoes.jpg")
     puts """
     Do you:
         
@@ -346,7 +346,7 @@ if dog_fed
     
 else
     system("clear")
-    puts image("./docs/img/shoe_torn.jpg")
+    puts image("./img/shoe_torn.jpg")
     puts """
     You look for your sneakers and find only the left shoe.
     The dog has taken his hunger pangs out on the right half!
@@ -454,7 +454,7 @@ end
 #CATCHING THE TRAIN 
 def train_status(late, dog_fed, clock)
     if late && dog_fed
-    puts image("./docs/img/doors_closed.jpg")
+    puts image("./img/doors_closed.jpg")
     puts """
     You arrive to see your train starting to move. You missed your train!
 
@@ -464,7 +464,7 @@ def train_status(late, dog_fed, clock)
     """
     clock.add_time(15)
     elsif !late && !dog_fed
-    image("./docs/img/train_gone.jpg")
+    image("./img/train_gone.jpg")
     puts """
     You arrive on the platform, to see that karma has come full circle.
 
@@ -475,7 +475,7 @@ def train_status(late, dog_fed, clock)
     """
     clock.add_time(15)
     else
-    puts image("./docs/img/doors_open.jpg")
+    puts image("./img/doors_open.jpg")
     puts """
     You step onto the platform just as your train arrives. 
     What a coinkidink!
@@ -484,7 +484,7 @@ def train_status(late, dog_fed, clock)
 end
 
 def crossing_street(footwear, clock)
-    image("./docs/img/southern_cross.jpg")
+    image("./img/southern_cross.jpg")
     puts """
     You're finally at Southern Cross Station. Just a couple hundred more metres to class.
     You touch off and make quick work of the stairs and it's time to cross the road.
