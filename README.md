@@ -1,7 +1,5 @@
 # The Morning Struggle
 
-[Xian's Github](https://github.com/xianll/XIANLL.GITHUB.IO)
-
 ### Inspiration
 ---
 
@@ -23,7 +21,12 @@ A game's primary function is to entertain, and we hope our game does.
 
 ### Instructions
 ---
-The app will launch and present the user with choices (eg. type < a > if you want to choose option a). Entering your option choices will prompt the story to move along.
+Launch the ruby working_title.rb file in terminal.
+You will require the catpix and colourize gems to run our app. Check the documentation in the following links for use and installation instructions.
+- [catpix gem](https://rubygems.org/gems/catpix)
+- [colorize](https://rubygems.org/gems/colorize)
+  
+The app will run and present the user with choices (eg. type < a > if you want to choose option a). Entering your option choices and following the instructions on the screen will prompt the story to move along.
 
 ### Screenshots
 ---
@@ -89,6 +92,8 @@ Given more time, we would have liked to:
 
 4. Implement a karma tracking device to punish players for their less moral decisions.
 --- 
+[You can find the source code here!](https://github.com/xianll/Terminal_App)
+
 ##### A terminal app by Eathan and Xian 
 
    
